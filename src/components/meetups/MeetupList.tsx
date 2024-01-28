@@ -17,4 +17,4 @@ const MeetupList = (props) => {
   )
 }
 
-export default MeetupList;
+export default MeetupList

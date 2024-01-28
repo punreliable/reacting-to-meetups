@@ -2,12 +2,25 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Layout from './components/layout/Layout'
+import { Route, Switch } from 'react-router-dom'
+// import AllMeetupsPage from './pages/AllMeetups'
+// import NewMeetupPage from './pages/NewMeetup'
+import MainNavigation from './components/layout/MainNavigation'
+
+
 
 function App() {
+
   const [count, setCount] = useState(0)
 
   return (
     <>
+
+        
+        <MainNavigation />
+
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
